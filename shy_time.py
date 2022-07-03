@@ -12,4 +12,5 @@ while True:
 	seconds = (time.hour * 60 * 60) + (time.minute * 60) + time.second
 	prev_seconds = time.second
 	os.system('cls' if os.name == 'nt' else 'clear')
-	print(seconds / 100)
+	print("{:.2f}".format(seconds / 100) + " / 864")
+	#print("\n(Day ends at 864)")
