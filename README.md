@@ -8,3 +8,9 @@ We currently have two displays: one which shows time advancing by the second, an
 # To Run
 
 python shy_time.py
+
+# Notes
+
+8 hours is 28,800 seconds, or 288 hundred-seconds.  
+Noon (when PM begins) is 432 hundred-seconds, or 4:32.    
+A day begins at 0:00 and Midnight is 8:64.
